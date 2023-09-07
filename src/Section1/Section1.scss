@@ -1,0 +1,58 @@
+
+.carousel-caption{
+    bottom: 25.25rem !important;
+}
+.karuselimg{
+    height: 800px;
+    width: 100%;
+}.section1{
+    position: relative;
+    .karusel1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        div{
+            position: absolute;
+            h4{
+                font-weight: 400;
+                font-size:  18px;
+                font-style:  italic;
+                color: rgb(27, 116, 94);
+                line-height: 27px;
+                text-decoration: none;
+                transform: none;
+                font-family:  "Crimson Text";
+                letter-spacing: 0;
+            }
+            h1{
+                    font-weight: 400;
+                    font-size:  46px;
+                    font-style:  normal;
+                    color: rgb(27, 116, 94);
+                    line-height: 50.6px;
+                    text-decoration: none;
+                    transform: none;
+                    font-family:  Quicksand;
+                    letter-spacing: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 391px) {
+    .carousel{
+        height: 31vh !important;
+    }
+    .karusel1 {
+      width: 100%;
+      div{
+        margin-bottom: 143%;
+        h1{
+            font-size: 23px !important;
+        }
+      }
+    }
+  }
+    

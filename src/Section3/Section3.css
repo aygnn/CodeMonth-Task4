@@ -1,0 +1,195 @@
+.devoted {
+  margin-top: 65px;
+}
+.devoted h4 {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(27, 116, 94);
+  line-height: 27px;
+  text-decoration: none;
+  transform: none;
+  font-family: "Crimson Text";
+  letter-spacing: 0;
+}
+.devoted h2 {
+  font-weight: 400;
+  font-size: 46px;
+  font-style: normal;
+  color: rgb(12, 91, 71);
+  line-height: 50.6px;
+  text-decoration: none;
+  transform: none;
+  font-family: Quicksand;
+  letter-spacing: 0;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+}
+.section3 .search {
+  margin-left: 67%;
+  display: flex;
+}
+.section3 .search button {
+  width: 49px;
+  height: 46px;
+  background-color: #1b745e;
+  color: white;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-color: chartreuse;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.section3 .search .default {
+  width: 103px !important;
+  font-size: 15px !important;
+}
+.section3 .kartlar {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10%;
+}
+.section3 .kartlar .kart {
+  width: 18%;
+  margin-bottom: 35px;
+}
+.section3 .kartlar .kart .kartimg img {
+  width: 337px;
+}
+.section3 .kartlar .kart .price h3 {
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  color: rgb(27, 116, 94);
+  line-height: 33px;
+  text-decoration: none;
+  transform: none;
+  font-family: Quicksand;
+  letter-spacing: 0;
+}
+.section3 .kartlar .kart .price p {
+  font-weight: 400;
+  font-size: 18p x;
+  font-style: normal;
+  color: rgb(27, 116, 94);
+  line-height: 27px;
+  text-decoration: none;
+  transform: none;
+  font-family: "Crimson Text";
+  letter-spacing: 0;
+}
+.section3 .kartlar .kart .price .button-27 {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: rgb(27, 116, 94);
+  border: 1px solid;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 21px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+.section3 .kartlar .kart .price .button-27:disabled {
+  pointer-events: none;
+}
+.section3 .kartlar .kart .price .button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.section3 .kartlar .kart .price .button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #cca1d2;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #a473ab;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 700px) {
+  .search {
+    margin-left: 3% !important;
+  }
+  .kartlar {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .events {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Section3.css.map */

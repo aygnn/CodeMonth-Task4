@@ -1,0 +1,62 @@
+.navbarr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(36, 111, 91, 0.92);
+    height: 73px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    color: white;
+    .logo{
+        margin-left: 3%;
+        font-size: 20px;
+    }
+    .homes{
+        margin-right: 3%;
+    }
+    // padding: 39px;
+    .burger{
+        display: none;
+    }
+    .homes{
+        a{
+
+            color: #b5ccbe;
+            text-decoration: none;
+            font-family: 'Quicksand', sans-serif;
+            margin: 15px;
+
+            font-weight: 500;
+            font-size:  16px;
+            font-style:  normal;
+            color: rgb(216, 227, 213);
+            line-height: 24px;
+            text-decoration: none;
+            transform: none;
+            font-family:  Quicksand;
+            letter-spacing: 0;
+        }
+        .bag{
+            svg{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .navbarr {
+      width: 100%;
+      .homes a{
+          display: none;
+        }
+        .burger{
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: 27px;
+        }
+    }
+  }

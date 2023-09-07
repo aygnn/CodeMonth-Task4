@@ -1,0 +1,99 @@
+.section2{
+    display:flex ;
+    justify-content: center;
+    background-image: url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 165px;
+    .yasildiv{
+        display: flex;
+        width: 70%;
+        .soldiv{
+            width: 50%;
+            background-color: #1b745e;
+            div{
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                color: white;
+                padding-top: 30%;
+                padding-left: 20%;
+                width: 81%;
+                h3{
+                    font-weight: 400;
+                    font-size:  46px;
+                    font-style:  normal;
+                    color: rgb(255, 255, 255);
+                    line-height: 50.6px;
+                    text-decoration: none;
+                    transform: none;
+                    font-family: Quicksand;
+                    letter-spacing: 0;
+                }
+                p{
+                    font-weight: 400;
+                    font-size:  16px;
+                    font-style:  normal;
+                    color: rgb(255, 255, 255);
+                    line-height: 24px;
+                    text-decoration: none;
+                    transform: none;
+                    font-family:  Quicksand;
+                    letter-spacing: 0;
+                }
+                span{
+                    display: flex;
+                    width: 127px;
+                    height: 48px;
+                    background-color: #d8e3d5;
+                    color: #1b745e;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid;
+                }
+            }
+        }
+        .sagdiv{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+            
+        }
+       
+    }
+}
+@media screen and (max-width: 700px) {
+    .yasildiv{
+       
+        display: flex;
+        width: 164% !important;
+        flex-direction: column;
+        align-items: center;
+        .soldiv{
+            height: 23vh;
+            width: 83% !important;
+            div{
+                padding: 0;
+                padding-top: 0 !important;
+                h3{
+                    font-size: 23px !important;
+                }
+                p{
+                    font-size: 9px !important;
+                }
+                span{
+                    width: 100px !important;
+                    height: 20px !important;
+                }
+            }
+        }
+        .sagdiv{
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+        }
+       
+    }
+  }
