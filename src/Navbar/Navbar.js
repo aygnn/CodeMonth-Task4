@@ -14,20 +14,26 @@ export default function Navbar() {
 
   return (
     <div className='navbarr'>
+        <input type="checkbox"  id="check"/>
         <div className='logo'>
         <h3>Fashion Studio</h3>
 
         </div>
-    <div className='homes'>
-        
-    <Link to={'/'}>Home</Link>
-    <Link to={'add'}>Products</Link>
-    <Link to={'basket'} className='bag' href='#'><HiOutlineShoppingBag/> <sup>{counter}</sup></Link>
+    <div className='menus'>
+    <ul>
+      <li>  <Link to={'/'}>Home</Link></li>
+       <li>    <Link to={'add'}>Products</Link></li>
+        <li>    <Link to={'basket'} className='bag' href='#'><HiOutlineShoppingBag/> <sup>{counter}</sup></Link></li>
+      </ul>
+  
 
 
 
     </div>
-    <div className='burger'><GiHamburgerMenu/></div>
+    <label for="check">
+
+    <div className='burger' id='btn'><GiHamburgerMenu/></div>
+    </label>
 
     </div>
   )

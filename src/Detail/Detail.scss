@@ -420,3 +420,15 @@
 
 }
 
+@media screen and (max-width: 500px){
+    .row {
+        padding-top: 16.5% !important   ;
+        .col-sm-8{
+            width: 83%;
+            .main-pic{
+                width: auto;
+                height: 233px;
+            }
+        }
+    }
+}
